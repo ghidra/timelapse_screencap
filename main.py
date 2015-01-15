@@ -33,7 +33,7 @@ def main(kwargs):
 			save_path = kwargs[3] 
 	if(len(kwargs)>4):
                 if(kwargs[4]!=""):
-                        interval = float(kwargs[4])
+                        interval = int(kwargs[4])
 
 
 	#screencap(save_path,save_name+str(seq),1)
