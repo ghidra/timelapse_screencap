@@ -25,17 +25,18 @@ def main(kwargs):
 	if(len(kwargs)>1):
 		if(kwargs[1]!=""):
 			save_name = kwargs[1]
+
 	if(len(kwargs)>2):
                 if(kwargs[2]!=""):
-                        scale = float(kwargs[2])
+                        interval = int(kwargs[2])
+
 	if(len(kwargs)>3):
-		if(kwargs[3]!=""):
-			save_path = kwargs[3] 
+                if(kwargs[3]!=""):
+                        scale = float(kwargs[3])
+
 	if(len(kwargs)>4):
-                if(kwargs[4]!=""):
-                        interval = int(kwargs[4])
-
-
+		if(kwargs[4]!=""):
+			save_path = kwargs[4] 
 	#screencap(save_path,save_name+str(seq),1)
 	capture()
 

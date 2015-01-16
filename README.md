@@ -9,10 +9,10 @@ usage
 python main.py filename scale path time_increment_in_seconds
 
 there is no real argument handling at the moment. So they must be put in in order.
-you can omit them from the backend first. 
-time in seconds defaults to 1 second. 
+you can omit them from the backend first.  
 path defaults to the current working directory.
 scale defaults to 1.
+time in seconds defaults to 1 second.
 filename defaults to screencap.
 
 it will then drop files number sequentially into the path folder.
